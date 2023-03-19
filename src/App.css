@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body{
+  background-color: bisque;
+    text-align: center;
+}
+.all{
+  background-color: darkseagreen;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+.form_1{
+  padding: 20px 0 0 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.form_1 input {
+  flex-grow: 1;
+    padding: 7px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.form_1 button {
+  margin-left: 10px;
+  border-radius: 6px;
+  border: none;
+}
+ul {
+  list-style: none;
+  padding: 20px;
+}
+li {
+  text-align: start;
+  display: flex;
+  padding: 10px;
+  background-color: #fa8072ab;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+li:last-of-type{
+  margin-bottom: 0;
+}
+ul li span {
+  flex-grow: 1;
+}
+ul li button:first-of-type {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 21px;
+}
+ul li button:last-of-type {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  margin-left: 5px;
+  height: 21px;
+}
+
+.form_2{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  /* padding: 12px; */
+}
+/* .form_2 :not(:first-child){
+  margin: 12px 0;
+} */
+.form_2 input {
+  flex-grow: 1;
+  text-align: start;
+  padding: 13px;
+  background-color: #fa8072ab;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.form_2 button {
+  cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 10px;
+    /* height: 33px; */
+    height: 37px;
 }
