@@ -64,7 +64,7 @@ Otherwise, all links will open in the same tab.
 
 
 ## what-i-learned
-Through this project, I learned in this simple project how to create react app,
+I learned in this simple project how to create react app,
 how to add,edit and delete item and how to use localstorage. how to deploy it on netlify
 
 ## Continued Development
