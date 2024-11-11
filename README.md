@@ -69,7 +69,7 @@ how to add,edit and delete item and how to use localstorage. how to deploy it on
 
 ## Continued Development
 In the future, I plan to:
-- learn more about reactJs Hooks.
+- learn more about reactJs Hooks and cookies,localstorage.
 
 ### Author
 
