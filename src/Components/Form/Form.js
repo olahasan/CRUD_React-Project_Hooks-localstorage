@@ -26,6 +26,10 @@ function Form() {
     setAllitems(tasks || [])
   },[])
 
+ // useEffect(() => {
+  //   localStorage.clear();
+  // }, []);
+    
   const addTask = () => {
     setAllitems(prev => {
       return [...prev]
