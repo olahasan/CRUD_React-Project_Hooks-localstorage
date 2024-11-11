@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# CRUD_React-Project_Hooks-localstorage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Crud application built with ReactJs [hooks]. It allows users to add ,edit and delete items.and store that at localstorage.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Links](#Links)
+- [Screenshot](#Screenshot)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#Acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## overview
+This is a simple Crud application built with ReactJs [hooks]. It allows users to add ,edit and delete items.and store that at localstorage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Add new items and edit it and remove it when finished
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+To get started with this project, follow these steps:
 
-### `npm run build`
+you can clone the project or download it as Zip file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/olahasan/CRUD_React-Project_Hooks-localstorage.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+   cd <project-directory>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the required dependencies:
+   npm install   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Usage
+To run the application, use the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you want to open the link in a new tab, you can:
 
-## Learn More
+- Press **Ctrl** (or **Cmd** on Mac) while clicking the link.
+- Right-click the link and select **Open link in new tab**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Otherwise, all links will open in the same tab.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- Solution URL: [here](https://github.com/olahasan/CRUD_React-Project_Hooks-localstorage)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Live Site URL: [here](https://add-itiem-crud-hooks-localstorage.netlify.app/)
 
-### Analyzing the Bundle Size
+ ## Screenshot
+ 
+![Screenshot](./public/crud.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## what-i-learned
+Through this project, I learned in this simple project how to create react app,
+how to add,edit and delete item and how to use localstorage. how to deploy it on netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Continued Development
+In the future, I plan to:
+- learn more about reactJs Hooks.
 
-### Advanced Configuration
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+GitHub - @olahasan
 
-### Deployment
+### Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I would like to thank the **[unique coderz academy](https://www.youtube.com/@UniqueCoderzAcademy)** for providing this challenge and to the community for their support.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
